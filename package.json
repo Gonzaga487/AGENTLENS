@@ -1,0 +1,15 @@
+{
+  "name": "agentlens",
+  "version": "1.0.0",
+  "description": "AI Agent Reliability Intelligence",
+  "main": "agentlens/main.py",
+  "scripts": {
+    "start": "python -m agentlens.main"
+  },
+  "dependencies": {
+    "fastapi": "^0.141.0",
+    "uvicorn": "^0.30.0",
+    "pydantic": "^2.7.0",
+    "jinja2": "^3.1.0"
+  }
+}
